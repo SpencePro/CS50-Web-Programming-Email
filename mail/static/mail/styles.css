@@ -1,0 +1,65 @@
+textarea {
+    min-height: 400px;
+}
+
+.email-class {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.email-class:hover {
+    border: 2px solid black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 2px;
+}
+
+.inside-text {
+    display: inline-block;
+    padding-top: 1rem;
+    text-align: justify;
+    position: relative;
+    width: 100%;
+}
+
+.email-element, .email-label {
+    display: inline-block;
+}
+
+.email-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.From {
+    display: inline-block;
+    float: left;
+    margin-left: 1rem;
+    width: 40%;
+}
+
+.Subject {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.Sent {
+    display: inline-block;
+    float: right;
+    margin-right: 1rem;
+}
+
+.header-element, .header-label {
+    display: inline-block;
+}
+
+.header-label {
+    font-weight: bold;
+    margin-right: 0.5rem;
+
+.header-div {
+    height: 1.5rem;
+}
